@@ -20,7 +20,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
 {% comment %}
-HEADER
+Andrew's Carpentries Workshop Site
 
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
@@ -129,7 +129,7 @@ This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
 <p id="when">
-  <strong>When:</strong>
+  <strong>When: Very, very soon!!! </strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
 </p>
